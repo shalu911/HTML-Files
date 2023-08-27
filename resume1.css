@@ -1,0 +1,31 @@
+body{
+font-family:"Montserrat",sans-serif;
+max-width: 50%;
+margin: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+.editing{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 80px;
+    margin-top: 20px; ;
+}
+.title{
+   flex: 1; 
+   margin-left: 20px;
+}
+.name{
+    color: gray;
+}
+.coral{
+    color: indianred;
+    
+}
+div{
+    margin: 20px;
+}

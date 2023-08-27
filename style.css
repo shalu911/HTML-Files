@@ -1,0 +1,44 @@
+p,h2
+/* esme do tags pr ek sath styling use k liye */
+{
+    color: rgb(94, 32, 194);
+    text-align: right;
+}
+li
+{
+    color: chartreuse;
+    list-style-type: square ;
+}
+/* class k liye */
+.shalu
+{
+    color: red;
+}
+/* its used to ek tag k andr dusre sare tag pr styling apply krne k liye */
+tbody td
+{
+color: rgb(0, 255, 98);
+}
+/* y tag or uske bad vale just tag ko select krne k liye use krte h  */
+h5+p
+{
+    font-size: xx-large;
+
+}
+/* ye pseudo selector h jiski help se hum jub bhi cursur ko uske pas late h uska style k liye use krte h */
+a:hover
+{
+    color: tomato;
+    text-decoration: none;
+}
+table,tr,th,td{
+    padding: 15px;
+    border:2px solid rgb(24, 31, 27);
+    border-radius: 4px;
+    box-shadow: rgb(185, 250, 8);
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+}
+th{
+    background-color: darkviolet;
+}

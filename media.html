@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media queries</title>
+    <style>
+      html {
+        font-size: 2em;
+      }
+       @media screen and (width:600px){
+        p {
+          color: blueviolet;
+        }
+      } 
+       @media(orientation:landscape){
+          body{
+              color: chocolate;
+          }
+      } 
+      /* @media screen and (max-width:900px) and (orientation:landscape) {
+          body{
+              color: darkgreen;
+          }
+          
+      } */
+       @media screen and (max-width:600px),screen and(orientation:landscape)
+      {
+          body{
+              color:yellow;
+          }
+      } 
+      @media screen and (max-width:800px) {
+        body {
+            text-align: center;
+            background-color: green;
+        }
+        @media screen and (max-width:500px) {
+        body {
+            text-align: center;
+            background-color: blue;
+        }
+    }
+    .box_head{
+            overflow: hidden;
+            background-color: rgb(176, 209, 28);
+            border: solid rgb(245, 19, 19);}
+.box_head{
+  float: left;
+}
+*{
+            text-align: center;
+            text-shadow: 4px;
+            box-sizing: border-box;
+        }
+        .box_head{
+            overflow: hidden;
+            background-color: rgb(176, 209, 28);
+            border: solid rgb(245, 19, 19);
+
+           
+        }
+        /* @media screen and ( max-width: 450px){
+        .head{
+        width: 100%;
+        height: 120px;
+        font-size: 40px;
+        border: 2px solid green;
+        padding: 20px;
+        }
+      } */
+        @media screen and ( min-width: 1000px){
+        .head{
+        width: 25%;
+        height: 120px;
+        font-size: 40px;
+        border: 2px solid green;
+        padding: 20px;
+    }
+}
+@media screen and ( min-width: 451px) and ( max-width:1000px){
+        .head{
+        width: 50%;
+        height: 120px;
+        font-size: 40px;
+        border: 2px solid green;
+        padding: 20px;
+    }
+}
+    </style>
+  </head>
+  <body>
+    <p>
+      The result of the query is true if the specified media type matches the
+      type of device the document is being displayed on and all expressions in
+      the media query are true. When a media query is true, the corresponding
+      style sheet or style rules are applied, following the normal cascading
+      rules.
+    </p>
+    <p>
+      One way to use media queries is to have an alternate CSS section right
+      inside your style sheet. The following example changes the
+      background-color to lightgreen if the viewport is 480 pixels wide or wider
+      (if the viewport is less than 480 pixels, the background-color will be
+      pink):
+    </p>
+    <div class=" box_head">
+    <div class="head">hello</div>
+    <div class="head">kese ho</div>
+    <div class="head">bham bham bole</div>
+    </div>
+  </body>
+</html>

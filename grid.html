@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .container{
+            display:grid ;
+            grid-template-columns: repeat( auto-fill,minmax(5,1fr)); 
+            grid-gap: 20px;
+            grid-auto-rows: minmax(100px,auto); 
+            grid-auto-columns:minmax(50px,auto); 
+
+
+        }
+        .items{
+            background-color: coral;
+            border: 3px green solid;
+            border-radius: 3px;
+             /* width: 300px; */
+            /* height: 200px;  */ 
+        } 
+        #item-1{
+           
+            grid-row-start:2;
+            grid-row-end: 3;
+            grid-column-start:2 ;
+            grid-column-end:3 ;
+            border: 20px green solid;
+        }
+        #item-1{
+            grid-row-start: 1;
+            grid-row-end: 3;
+
+        }
+        .items-container{
+           display:grid;
+            grid-template-columns: repeat(3,1fr) ;
+            border: 30px;
+            background-color: greenyellow;
+        }
+        .nested-item{
+            border: hotpink solid;
+        }
+
+    </style>
+</head>
+<body>
+  <div class="container">
+  <div class="items-container" id="item-1">
+<div class="nested-item">dabbe mai dabba 1</div>
+<div class="nested-item">dabbe mai dabba 2</div>
+<div class="nested-item">dabbe mai dabba 3</div>      
+</div>
+  <div class="items">dabba 2</div>
+  <div class="items">dabba 3</div>
+  <div class="items">dabba 4</div>
+  <div class="items">dabba 5</div>
+  
+</div>
+</body>
+</html>

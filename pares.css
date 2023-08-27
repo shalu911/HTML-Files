@@ -1,0 +1,26 @@
+body
+{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+}
+div
+{
+    box-sizing:border-box; 
+    color: black;
+    margin-top: 4px;
+    width: 400px;
+}
+.parecent
+{
+    font-size: 201
+    px;
+}
+.em
+{
+    font-size: 5em;
+}
+.rem
+{
+    font-size: 1rem;
+}

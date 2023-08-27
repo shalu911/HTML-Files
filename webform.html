@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=google crome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pymantform</title>
+    <link rel="stylesheet" href="webform.css">
+
+</head>
+<body class="contain">
+    <div>
+    <form action="">
+        <h1 class="hed">paymand form</h1><hr>
+        <p>required field*</p>
+        <h2>contact information</h2>
+        <p>name: *<input type="text" required name="name" placeholder="rohan sharma"></p>
+        <p> 
+            <fieldset>
+                <legend>gender</legend>
+            male *<input type="radio" name="gender" id="male">
+            female *<input type="radio" name="gender" id="female">
+        </fieldset>
+        </p>
+        <p>address: <textarea name="address" id="address" cols="100" rows="8 required name="name" placeholder="india,pincode,ets"></textarea></p>
+<p>email:<input type="email" name="email" id="email">
+</p>
+<p>
+    pincode:* <input type="number" name="pincode" id="pincode" required>
+</p>
+<h2>paymant information</h2>
+<p>card type:
+    <select name="card_type" id="card_type"> 
+        <option value="  ">--select card type</option>
+        <option value="visaa">visaa</option>
+        <option value="rupay">rupay</option>
+        <option value="master card">master card</option>
+    </select>
+</p>
+<p>
+    card  number <input type="number" name="card number" id="card number">
+
+</p>
+<p>
+    Expiration Date: <input type="date" name="expiriation date" id="expering date">
+</p>
+<p>CVV <input type="password" name="cvv"></p>
+<input type="submit" value="Pay Now">
+    </form>
+</div>
+</body>
+</html>

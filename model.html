@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap" rel="stylesheet">
+    <title>box model</title>
+    <style>
+      body {
+        color: royalblue;
+        /* background-color: slateblue; */
+      }
+      #thirdpara {
+        background-image: url("https://sm.pcmag.com/pcmag_in/gallery/6/6-ways-to-/6-ways-to-improve-your-dual-monitor-setup_h96r.jpg");
+        background-position: center;
+        background-repeat: repeat-x;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        -items: right;
+        text-align: center;
+        padding: 0 20px;
+        color: rgb(112, 23, 230);
+      }
+      .container {
+        background-color: burlywood;
+        border: 3px solid rgb(64, 6, 119);
+        padding-top: 99px;
+        padding-bottom: 99px;
+        margin: 14px 19px;
+        border-radius: 23px;
+        width: 533px;
+        box-sizing: border-box;
+        
+        font-family: 'Rubik Beastly', cursive;
+        background-color:red ;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>this is my heading</h2>
+      <p id="firstpara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dignissimos
+        eligendi neque, cum aperiam explicabo esse. Consequatur libero molestiae
+        culpa qui minus, reprehenderit quam repellat dolorem adipisci,
+        perferendis alias delectus.
+      </p>
+    </div>
+    <div >
+      <h2>this is my heading</h2>
+      <p id="secondpara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dignissimos
+        eligendi neque, cum aperiam explicabo esse. Consequatur libero molestiae
+        culpa qui minus, reprehenderit quam repellat dolorem adipisci,
+        perferendis alias delectus.
+      </p>
+    </div>
+    <div >
+      <h2>this is my heading</h2>
+      <p id="thirdpara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dignissimos
+        eligendi neque, cum aperiam explicabo esse. Consequatur libero molestiae
+        culpa qui minus, reprehenderit quam repellat dolorem adipisci,
+        perferendis alias delectus.
+      </p>
+    </div>
+  </body>
+</html>
